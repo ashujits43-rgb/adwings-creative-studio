@@ -1,0 +1,19 @@
+<svg width="900" height="1125" viewBox="0 0 900 1125" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="900" height="1125" fill="#0A1022"/>
+  <rect x="48" y="48" width="804" height="1029" rx="42" fill="url(#paint0_linear)"/>
+  <circle cx="454" cy="350" r="142" fill="#A4B6FF" fill-opacity="0.16"/>
+  <path d="M292 896C292 781.125 385.125 688 500 688H562C676.875 688 770 781.125 770 896V961H292V896Z" fill="#0E1733"/>
+  <circle cx="495" cy="392" r="126" fill="#18284F"/>
+  <path d="M360 514C386.667 570.667 434 599 502 599C570 599 621.333 570.667 656 514" stroke="#5F83FF" stroke-width="10" stroke-linecap="round"/>
+  <path d="M335 979H678" stroke="#7A91E5" stroke-width="4" stroke-linecap="round"/>
+  <path d="M170 190C285.333 131.333 377.333 102 446 102C514.667 102 624 144.667 774 230" stroke="#8F5DFF" stroke-opacity="0.28" stroke-width="16" stroke-linecap="round"/>
+  <text x="90" y="1010" fill="#F3F7FF" fill-opacity="0.92" font-family="Arial, sans-serif" font-size="52" font-weight="700">ASHUJIT KUMAR</text>
+  <text x="90" y="1060" fill="#9AA7D7" font-family="Arial, sans-serif" font-size="24" letter-spacing="8">FOUNDER PLACEHOLDER PORTRAIT</text>
+  <defs>
+    <linearGradient id="paint0_linear" x1="96" y1="98" x2="819" y2="1011" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#14224A"/>
+      <stop offset="0.58" stop-color="#0E1733"/>
+      <stop offset="1" stop-color="#1E1B42"/>
+    </linearGradient>
+  </defs>
+</svg>

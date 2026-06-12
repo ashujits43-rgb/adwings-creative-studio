@@ -1,0 +1,16 @@
+<svg width="800" height="1000" viewBox="0 0 800 1000" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="1000" fill="#090E1D"/>
+  <rect x="54" y="54" width="692" height="892" rx="36" fill="url(#paint0_linear)"/>
+  <rect x="122" y="168" width="556" height="300" rx="28" fill="#131E40"/>
+  <rect x="122" y="522" width="420" height="28" rx="14" fill="#DCE6FF"/>
+  <rect x="122" y="574" width="320" height="20" rx="10" fill="#90A5E8"/>
+  <rect x="122" y="722" width="232" height="90" rx="24" fill="#3A7BFF" fill-opacity="0.24"/>
+  <text x="122" y="302" fill="#EFF4FF" font-family="Arial, sans-serif" font-size="62" font-weight="700">ASHU:</text>
+  <text x="122" y="374" fill="#EFF4FF" font-family="Arial, sans-serif" font-size="62" font-weight="700">Services</text>
+  <defs>
+    <linearGradient id="paint0_linear" x1="82" y1="78" x2="735" y2="934" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#142654"/>
+      <stop offset="1" stop-color="#171229"/>
+    </linearGradient>
+  </defs>
+</svg>
