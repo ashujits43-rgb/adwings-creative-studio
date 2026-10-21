@@ -13,9 +13,9 @@ const montserrat = Montserrat({
 });
 
 export const metadata: Metadata = {
-  title: "Adwings | Transforming Visions into Viral Content",
+  title: "Adwings | Content, Branding & Digital Growth",
   description:
-    "Cinematic creative studio landing page for Adwings, featuring brand identity, content production, performance marketing, and web design."
+    "Adwings offers video content making, creative graphic design, website designing, Google Business profiling, social media marketing, and ad shoots."
 };
 
 export default function RootLayout({

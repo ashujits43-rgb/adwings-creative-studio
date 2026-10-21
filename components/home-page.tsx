@@ -18,13 +18,12 @@ import {
   Send,
   Sparkles
 } from "lucide-react";
-import { AnimatedCounter } from "./animated-counter";
 import { HoverPreviewCard } from "./hover-preview-card";
 
 const heroStats = [
-  { value: "100+", label: "Brand identities launched" },
-  { value: "500+", label: "Campaign assets delivered" },
-  { value: "10M+", label: "Audience reach generated" }
+  { value: "4", label: "Core creative services" },
+  { value: "8", label: "Flexible package options" },
+  { value: "2", label: "Jharkhand locations" }
 ];
 
 const heroTags = [
@@ -36,45 +35,57 @@ const heroTags = [
 
 const quickLinks = [
   { label: "Services", href: "#services" },
+  { label: "Packages", href: "#packages" },
   { label: "Portfolio", href: "#portfolio" },
   { label: "Contact", href: "#contact" }
 ];
 
 const whatsappUrl =
-  "https://wa.me/919504033041?text=Hi%20Adwings%2C%20I%20would%20like%20to%20discuss%20a%20project.";
-const emailUrl = "mailto:ashujeetsharmas43@gmail.com";
+  "https://wa.me/917905040341?text=Hi%20Adwings%2C%20I%20would%20like%20to%20discuss%20a%20project.";
+const emailUrl = "mailto:adwings0007@gmail.com";
 
 const services = [
   {
-    eyebrow: "Identity",
-    title: "Logo & Brand Systems",
+    eyebrow: "Content",
+    title: "Video Content Making",
     description:
-      "Distinctive logo directions, campaign-ready brand kits, and design language that stays sharp across every platform.",
-    icon: Layers3,
+      "Engaging stories, scripting, production, and editing that give your business content a clear voice.",
+    icon: Clapperboard,
     className: "md:col-span-2"
   },
   {
-    eyebrow: "Production",
-    title: "Audio, Video & Poster Content",
+    eyebrow: "Design",
+    title: "Creative Graphic Designing",
     description:
-      "Creative planning, shoot execution, edit rhythm, and static assets built to feel cinematic from first frame.",
-    icon: Clapperboard
+      "Visual identity, logos, branding, and marketing materials designed to make your business memorable.",
+    icon: Layers3
   },
   {
-    eyebrow: "Growth",
-    title: "Performance Marketing",
+    eyebrow: "Web",
+    title: "Website Designing",
     description:
-      "Paid media and social strategy tuned for visibility, conversion, and repeatable scale.",
-    icon: Megaphone
+      "Static and dynamic websites with SEO, APIs, domain, hosting, and the essentials your business needs online.",
+    icon: MonitorSmartphone
   },
   {
-    eyebrow: "Digital",
-    title: "Website Design",
+    eyebrow: "Google",
+    title: "Google Business Profiling",
     description:
-      "Fast, modern websites that help brands look credible, capture leads, and convert attention into action.",
-    icon: MonitorSmartphone,
+      "Creative profile setup with photos and verification support to strengthen local business discovery.",
+    icon: BadgeCheck,
     className: "md:col-span-2"
   }
+];
+
+const packages = [
+  { title: "Google Profiling", price: "₹1,500/-" },
+  { title: "Facebook + Instagram Handling", price: "₹1,000/-" },
+  { title: "Creative Flyer (15)", price: "₹1,500/-" },
+  { title: "Video Reel (02)", price: "₹4,000/-" },
+  { title: "AI Video (04)", price: "₹4,000/-" },
+  { title: "Photography (50)", price: "₹2,000/-" },
+  { title: "CGI Creative Ads (02)", price: "₹10,000/-" },
+  { title: "Website Designing", price: "₹10,000 – ₹30,000" }
 ];
 
 const founderHighlights = [
@@ -205,10 +216,10 @@ export function HomePage() {
                 Creative Direction Meets Performance
               </div>
               <h1 className="font-display text-5xl font-semibold leading-[0.96] text-white sm:text-6xl lg:text-[clamp(3.4rem,4.7vw,4.6rem)]">
-                We build brands that look premium, launch fast, and stay visible.
+                Content, branding, and digital experiences that help your business move forward.
               </h1>
               <p className="mt-4 max-w-2xl text-base leading-7 text-slate-300 lg:text-[1.05rem]">
-                Adwings combines identity design, content production, social growth, and conversion-focused websites into one clear creative system for modern businesses.
+                Adwings brings video content, creative design, website development, Google Business profiling, social media marketing, and ad shooting together under one team.
               </p>
               <div className="mt-5 flex flex-wrap gap-2">
                 {heroTags.map((tag) => (
@@ -253,10 +264,10 @@ export function HomePage() {
                     Built To Move Fast
                   </p>
                   <h2 className="mt-2 font-display text-2xl font-semibold text-white lg:text-3xl">
-                    Strategy, shoots, and scale in one place.
+                    Your creative partner for every business goal.
                   </h2>
                   <p className="mt-2 max-w-md text-sm leading-6 text-slate-300">
-                    Instead of hiring different vendors for design, content, and growth, brands can move with one team and one direction.
+                    Choose the services that fit your goals and build a package around the work your business needs now.
                   </p>
                 </div>
               </div>
@@ -267,9 +278,9 @@ export function HomePage() {
                     Core stack
                   </p>
                   <div className="mt-3 space-y-2 text-sm leading-6 text-slate-200">
-                    <p>Identity systems for brands that need a stronger first impression.</p>
-                    <p>Production support for reels, campaigns, posters, and launch content.</p>
-                    <p>Marketing and websites designed to convert attention into inquiries.</p>
+                    <p>Social media marketing: strategy, management, engagement, and ad campaigns.</p>
+                    <p>Ad shooting: high-quality video ads and cinematic shoots.</p>
+                    <p>Websites, content, and design shaped around your business goals.</p>
                   </div>
                 </div>
 
@@ -327,10 +338,10 @@ export function HomePage() {
               Founder & Creative Lead
             </p>
             <h2 className="mt-4 max-w-3xl font-display text-4xl font-semibold md:text-6xl">
-              Ashujit Kumar brings direction, design sense, and execution into one workflow.
+              One team for your brand&apos;s content, creative, and online presence.
             </h2>
             <p className="mt-5 max-w-2xl text-base leading-8 text-slate-300">
-              Adwings is led with a hands-on creative process: shaping the visual direction, managing production, and keeping the final output aligned with the brand goal.
+              We keep your creative work connected—from the first story and visual identity to social content, campaigns, and a website that represents the business well.
             </p>
 
             <div className="mt-8 grid gap-4 sm:grid-cols-2">
@@ -352,7 +363,7 @@ export function HomePage() {
                   Client Fit
                 </p>
                 <p className="mt-4 text-lg leading-8 text-slate-100">
-                  Best for founders, local businesses, creators, and growing brands that want one studio to handle both aesthetics and traction.
+                  Built for local businesses, founders, and growing brands that want a practical creative partner.
                 </p>
               </div>
             </div>
@@ -376,11 +387,11 @@ export function HomePage() {
               Services Showcase
             </p>
             <h2 className="mt-4 max-w-4xl font-display text-4xl font-semibold md:text-6xl">
-              A tighter service grid that says what Adwings actually does.
+              Creative services designed around your business goals.
             </h2>
           </div>
           <p className="max-w-xl text-base leading-8 text-slate-300">
-            Each service is presented more clearly so visitors understand the offer quickly, without decorative filler or oversized empty space.
+            From content making to a complete website, select the services that make the strongest difference for your brand.
           </p>
         </motion.div>
 
@@ -431,10 +442,10 @@ export function HomePage() {
               How We Work
             </p>
             <h2 className="mt-4 font-display text-4xl font-semibold md:text-5xl">
-              Fewer handoffs. Clearer production. Better-looking output.
+              Tell us your goal. We&apos;ll help build the right mix.
             </h2>
             <p className="mt-5 max-w-xl text-base leading-8 text-slate-300">
-              From first discussion to launch, the workflow stays simple, fast, and focused on visible business results.
+              Combine any of our services to create a tailored package for content, branding, marketing, or your digital presence.
             </p>
           </motion.div>
 
@@ -497,59 +508,48 @@ export function HomePage() {
         </div>
       </section>
 
-      <section className="mx-auto max-w-7xl px-6 py-14 md:px-10 md:py-18 lg:px-16">
+      <section id="packages" className="mx-auto max-w-7xl px-6 py-14 md:px-10 md:py-18 lg:px-16">
         <motion.div
           initial={{ opacity: 0, y: 24 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true, amount: 0.35 }}
           transition={{ duration: 0.7 }}
-          className="grid gap-6 lg:grid-cols-[1.1fr_0.9fr]"
+          className="glass-panel rounded-[2.4rem] p-7 shadow-glow md:p-10"
         >
-          <div className="glass-panel rounded-[2.4rem] p-8 shadow-glow md:p-10">
-            <div className="mb-8 flex flex-col gap-4 md:flex-row md:items-end md:justify-between">
-              <div>
-                <p className="text-sm uppercase tracking-[0.32em] text-blue-200">
-                  Performance
-                </p>
-                <h2 className="mt-3 font-display text-4xl font-semibold md:text-5xl">
-                  Numbers that add trust without taking too much room.
-                </h2>
-              </div>
-              <div className="glass-chip inline-flex items-center gap-2 rounded-full px-4 py-2 text-xs uppercase tracking-[0.28em] text-white/70">
-                <Rocket size={14} />
-                Data-backed execution
-              </div>
-            </div>
-
-            <div className="grid gap-5 md:grid-cols-2">
-              <AnimatedCounter value={100} suffix="+" label="Logos Designed" />
-              <AnimatedCounter value={500} suffix="+" label="Videos Produced" />
-              <AnimatedCounter value={10} suffix="M+" label="Reach Generated" />
-              <AnimatedCounter value={24} suffix="/7" label="Campaign Momentum" />
-            </div>
-          </div>
-
-          <div className="glass-panel rounded-[2.4rem] p-8 shadow-violet md:p-10">
-            <p className="text-sm uppercase tracking-[0.32em] text-violet-200">
-              Why Clients Stay
-            </p>
-            <blockquote className="mt-5 font-display text-3xl font-semibold leading-tight text-white md:text-4xl">
-              "The work looks polished, but the bigger win is how quickly ideas become launch-ready."
-            </blockquote>
-            <p className="mt-5 text-base leading-8 text-slate-300">
-              Clients value the balance of speed, visual quality, and practical execution across brand, content, and digital presence.
-            </p>
-            <div className="mt-8 rounded-[1.6rem] border border-white/10 bg-black/20 p-5">
-              <p className="text-xs uppercase tracking-[0.3em] text-white/45">
-                Typical outcomes
+          <div className="mb-8 flex flex-col gap-4 md:flex-row md:items-end md:justify-between">
+            <div>
+              <p className="text-sm uppercase tracking-[0.32em] text-blue-200">
+                Packages
               </p>
-              <div className="mt-4 grid gap-3 text-sm text-slate-200">
-                <p>Sharper brand presentation across social and web.</p>
-                <p>Faster production cycles with fewer back-and-forth rounds.</p>
-                <p>Landing pages and campaigns that are easier to convert from.</p>
-              </div>
+              <h2 className="mt-3 font-display text-4xl font-semibold md:text-5xl">
+                Customize your business goals.
+              </h2>
+            </div>
+            <div className="glass-chip inline-flex items-center gap-2 rounded-full px-4 py-2 text-xs uppercase tracking-[0.2em] text-white/70">
+              <Rocket size={14} />
+              Choose at least two options
             </div>
           </div>
+
+          <div className="grid gap-3 md:grid-cols-2">
+            {packages.map((item, index) => (
+              <div
+                key={item.title}
+                className="flex items-center justify-between gap-4 rounded-[1.35rem] border border-white/10 bg-black/20 px-5 py-4"
+              >
+                <p className="text-sm font-medium text-slate-100 sm:text-base">
+                  <span className="mr-2 text-blue-200">{String(index + 1).padStart(2, "0")}.</span>
+                  {item.title}
+                </p>
+                <p className="whitespace-nowrap font-display text-lg font-semibold text-white">
+                  {item.price}
+                </p>
+              </div>
+            ))}
+          </div>
+          <p className="mt-6 text-sm leading-7 text-slate-300">
+            Social media marketing includes strategy, management, engagement, and ad campaigns. Ad shooting is available for high-quality video ads and cinematic shoots.
+          </p>
         </motion.div>
       </section>
 
@@ -565,10 +565,10 @@ export function HomePage() {
                 Contact
               </p>
               <h2 className="mt-4 font-display text-4xl font-semibold leading-none text-white sm:text-6xl">
-                Ready to build something that looks premium and performs?
+                Ready to create something your audience will remember?
               </h2>
               <p className="mt-5 max-w-xl text-base leading-8 text-slate-300">
-                Reach out for brand identity, content production, paid campaigns, or a website refresh. We will help you shape the right direction and execute it cleanly.
+                Reach out for content, creative design, social media marketing, ad shoots, Google Business profiling, or a new website.
               </p>
 
               <div className="mt-8 space-y-4">
@@ -580,7 +580,7 @@ export function HomePage() {
                 >
                   <span className="inline-flex items-center gap-3 text-lg">
                     <MessageCircle size={20} />
-                    WhatsApp: +91 95040 33041
+                    WhatsApp: +91 79050 40341
                   </span>
                   <ArrowUpRight size={18} />
                 </a>
@@ -590,10 +590,15 @@ export function HomePage() {
                 >
                   <span className="inline-flex items-center gap-3 text-base sm:text-lg">
                     <Mail size={20} />
-                    ashujeetsharmas43@gmail.com
+                    adwings0007@gmail.com
                   </span>
                   <ArrowUpRight size={18} />
                 </a>
+                <div className="rounded-[1.5rem] border border-white/10 bg-black/20 px-5 py-4 text-sm leading-6 text-slate-300">
+                  <p>Shri Ram Plaza, Bank More, Dhanbad, Jharkhand – 826001</p>
+                  <p className="mt-1">Kunwar Singh Colony, Chas, Bokaro, Jharkhand – 827013</p>
+                  <p className="mt-1 text-white">Also call: +91 87973 74000</p>
+                </div>
               </div>
             </div>
 
